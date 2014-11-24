@@ -103,8 +103,7 @@ foreach ($events->getItems() as $event) {
 			FEWD & Angular Mentor @ <a href='http://www.thinkful.com' target='_blank'>Thinkful.com</a>
 			<br>Co-Creator and Contributor @ <a href='http://www.rhinoio.com' target='_blank'>RhinoIO.com</a>"
 		);
-		shuffle($messages);
-		$message=($messages[0]);
+		$message=$messages[array_rand($messages)];
 
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
