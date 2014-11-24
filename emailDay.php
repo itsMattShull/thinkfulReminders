@@ -26,12 +26,14 @@ require_once "./Google/IO/Curl.php";
 
 
 // Service Account info
-$client_id = '235839918221-9ml35q5pofdlapg68apb5gn30dq73gcd.apps.googleusercontent.com';
-$service_account_name = '235839918221-9ml35q5pofdlapg68apb5gn30dq73gcd@developer.gserviceaccount.com';
-$key_file_location = 'Thinkful-Email-Reminders-5bd170bca0ae.p12';
+//Get these by signing up for the Google Calendar API
+$client_id = '*****CLIENT ID*****';
+$service_account_name = '*****SERVICE ACCOUNT NAME*****';
+$key_file_location = '*****KEY FILE LOCATION*****';
 
 // Calendar id
-$calName = 'mshull@thinkful.com';
+//Found by going to calendar settings.
+$calName = '*****CALENDAR ID*****';
 
 
 $client = new Google_Client();
